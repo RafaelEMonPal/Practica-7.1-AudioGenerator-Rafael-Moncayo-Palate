@@ -23,12 +23,13 @@ aac->begin(in, out);
 }
 
 void loop(){
-if (aac->isRunning()) {
-aac->loop();
-} else {
-aac -> stop();
-Serial.printf("Sound Generator\n");
-delay(1000);
+  if (aac->isRunning()) {
+    aac->loop();
+  } else {
+  aac -> stop();
+  Serial.printf("Sound Generator\n");
+  delay(1000);
+  }
 }
-}
+
 ```
