@@ -36,5 +36,5 @@ void loop(){
 
 ## Explicació de la pràctica
 
-Les llibreries que utilitzarem per aquest programa és l'audio i el sampleaac.h. Començarem amb la declaració de la font on treurem el so, el generador i el output de sortida com a punters. i en el setup declara la entrada in com un objecte nou de Audio File Source PROGMEM amb parametres del sampleaac. 
-En el void Loop tindrem en bucle la funció de aac en la que comprovarem si esta funcionant i si ho esta reproduirà un so, però si no: pararà el procés amb la inconveniencia de que tenim un serial.print que no pararà i per tant el que pasarà serà que el àudio es reproduirà 1 vegada pero per pantalla no pararà de sortir "Sound Generator".
+Les llibreries que utilitzarem per aquest programa és l'àudio i el sampleaac.h. Començarem amb la declaració de la font on treurem el so, el generador i el output de sortida com a punters. I en el setup es declara l'entrada **in** com un objecte nou de **Audio File Source PROGMEM** amb parametres del sampleaac. 
+En el void Loop tindrem en bucle la funció de aac en la que comprovarem si esta funcionant i si ho esta reproduirà un so, però si no: pararà el procés amb la inconveniencia de que tenim un serial.print que no pararà i per tant el que pasarà serà que el àudio es reproduirà 1 vegada però per pantalla no pararà de sortir "Sound Generator".
